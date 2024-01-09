@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'm5x7';
+    src: url('./src/assets/fonts/m5x7.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'm6x11';
+    src: url('./src/assets/fonts/m6x11.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'monogram';
+    src: url('./src/assets/fonts/monogram.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    cursor: url('./src/assets/cursor.png'), auto;
+}
+
+.layers { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+
+    background-color: #101820;
+}
